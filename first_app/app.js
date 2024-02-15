@@ -4,6 +4,7 @@ const port = 3000;
 
 const TEMPLATE_DIR = 'static';
 
+// body-parserの設定
 const bodyparser = require('body-parser');
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: true}));
