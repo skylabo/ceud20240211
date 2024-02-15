@@ -1,0 +1,32 @@
+html(lang="ja")
+head
+    meta(charaset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title Template HTML for Simple CRUD App.
+    //-- Bootstrap 5.2.0:css
+    link(herf="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous")
+
+body
+   //-- main content--
+   main
+    //--div : header --
+    div(class="container-fluid") 
+        h1 HTMLテンプレート
+        h2 自分の名前
+        h3 Last Update: 2024-02-15
+
+    hr
+
+    //-- div : main_content --
+    block main_content
+
+    hr
+
+    //-- div :footer
+    div(class="container-fuluid")
+        address Copyright (C) 2024 Skylabo.net All rights reserved.
+
+    //-- main content --
+
+    //-- Bootstrap 5.2.0 : Javascript --
+    script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous")
