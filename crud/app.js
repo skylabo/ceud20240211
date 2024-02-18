@@ -17,7 +17,7 @@ connection.connect((err) => {
 
 // SQL文を書いて実行
 const sql = 'SELECT * FROM animal';
-// const sql ='UPDATE animal SET name="トカゲ２" WHERE id=1';
+// const sql ='UPDATE animal SET name="サル" WHERE id=3';
 connection.query(sql, (err, result) => {
     if (err) {
         console.error(`Error!: ${sql}`);
