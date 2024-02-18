@@ -1,0 +1,12 @@
+//- レイアウトテンプレート
+extends layout.pug 
+
+//-- div :main --
+block main_content
+    .container-fluid 
+        h2 Read:Select 
+
+        //- データ表示　-
+        ul
+         each datum, index in json_data
+          li !{index} : #{datum.id}, #{datum.name}, #{datum.size}, #{datum.memo}
